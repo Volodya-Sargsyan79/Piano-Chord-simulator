@@ -1,0 +1,38 @@
+.acordsKarkas{
+    width: 100%;
+    background-color: white;
+    padding: 0 !important;
+    justify-content: center;
+}
+.acordKarkas{
+  padding: 10px 25px !important;
+  border-radius: 0 !important;
+  color: black !important;
+  text-decoration: none;
+  text-align: center;
+  border: 0.5px solid #F0F0F0;
+  border-radius: 20px !important;
+  margin: 20px 30px 20px 0!important;
+  box-shadow: 0 0 5px grey;
+}
+
+
+.majminsKarkas{
+  width: 100%;
+  background-color: white;
+  padding: 0 !important;
+  justify-content: center;
+}
+
+.majminKarkas{
+padding: 10px 25px !important;
+border-radius: 0 !important;
+color: black !important;
+text-decoration: none;
+text-align: center;
+border: 0.5px solid #F0F0F0;
+border-radius: 20px !important;
+margin: 20px 20px 20px 0!important;
+box-shadow: 0 0 5px grey;
+}
+  

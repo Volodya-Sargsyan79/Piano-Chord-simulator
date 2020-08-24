@@ -1,0 +1,47 @@
+.jobs_all{
+  width: 70%;
+  margin: 0 auto;
+  padding: 10vh 0;
+  display: flex;
+  flex-direction: column;
+  h2{
+    text-align: center;
+  }
+  h4{
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .job_types{
+
+    .job_tasks{
+      .task_titles{
+        text-align: center;
+        i{
+          font-size: 30px;
+          color: grey;
+          margin-bottom: 2vh;
+        }
+        h6{
+          font-size: 25px;
+          font-weight: 400;
+        }
+      }
+      .task_txt{
+        display: flex;
+        flex-direction: column;
+        margin: 5vh auto;
+        p{
+          color: #808080;
+          margin: 0 !important;
+          font-size: 20px;
+        }
+      }
+    }
+
+  }
+  .job_apply{
+    text-align: center;
+    font-size: 20px;
+    color: #808080;
+  }
+}

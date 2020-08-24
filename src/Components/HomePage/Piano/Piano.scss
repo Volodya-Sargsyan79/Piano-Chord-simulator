@@ -1,0 +1,28 @@
+.piano_top{
+  width: 100%;
+  height: 125%;
+  background: black;
+  position: absolute;
+  top: -28%;
+  border-radius: 10px 10px 25px  25px;
+}
+
+#keyColor{
+  background: #e32c2b;
+}
+.piano_blackfon_all{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+
+  .piano_blackfon{
+    left: 26%;
+    top:-13%;
+    position: absolute;
+    width: 48%;
+    height: 110%;
+    z-index: 1;
+    background: black;
+    border-radius: 10px 10px 25px 25px;
+  }
+}

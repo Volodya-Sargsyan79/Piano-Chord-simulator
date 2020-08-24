@@ -1,0 +1,32 @@
+.work_files_all{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  .work_files{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vh;
+    box-shadow: 0 0 6px 0 grey;
+    border-radius: 10px;
+    text-align: center;
+    div{
+      &:hover{
+        i{
+          color: #307AE2;
+          transition: .8s;
+        }
+          p{color: #307AE2;
+            transition: .8s;
+          }
+
+      }
+    }
+    i{
+      margin-top: 20px;
+      font-size: 22px;
+      color:grey;
+    }
+  }
+}

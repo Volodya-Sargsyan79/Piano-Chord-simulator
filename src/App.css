@@ -1,0 +1,12 @@
+*{
+  margin:0;
+  padding:0
+}
+.header{
+  padding: 2vh 0;
+  background: white;
+  border-bottom: 1px solid black;
+}
+button{
+  outline: none !important;
+}

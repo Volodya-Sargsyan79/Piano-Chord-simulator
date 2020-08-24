@@ -1,0 +1,54 @@
+.instruments_all{
+  text-align: center;
+  margin-bottom: 5vh ;
+  button{
+    padding: 10px 20px !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    outline: none !important;
+    border:none !important;
+    background: #e32c2b !important;
+    -webkit-filter: drop-shadow(0 0 9px #e32c2b);
+    filter: drop-shadow(0 0 9px #e32c2b);
+  }
+}
+
+
+#example-modal-sizes-title-lg{
+  span{
+    font-size: 13px;
+    color: grey;
+  }
+}
+
+.Poxatc{
+  width: 100%;
+  background-color: white;
+  padding: 0;
+}
+
+.Poxatc > .harc{
+  width: 100%;
+  border-radius: 0 !important;
+  border: 1px solid gray;
+  color: black !important;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.Poxatc > .harc:hover {
+  background-color:#e32c2b !important;
+}
+
+
+.modal_body{
+  display: flex;
+  padding: 0 !important;
+  .body_left_all{
+    height: 100%;
+    width: 50%;
+    padding: 0;
+  }
+}

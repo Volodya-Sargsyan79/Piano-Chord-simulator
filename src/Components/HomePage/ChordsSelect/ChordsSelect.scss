@@ -1,0 +1,14 @@
+.chords_select_all{
+  width: 50%;
+  margin: 5vh auto;
+
+  display: flex;
+  justify-content: space-around;
+  .btn-primary{
+    width: 150px !important;
+    background: white !important;
+    border: 1px solid #CCCCCC;
+    color: black;
+    font-weight: lighter;
+  }
+}

@@ -1,0 +1,47 @@
+.aveilable_on_all{
+  background: linear-gradient(180deg,#1592e6,#6a37f6);
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 0 10vh 0;
+  .aveilable_text{
+    h3{
+      color: white;
+      margin: 5vh auto;
+    }
+  }
+  .aveilable_tags{
+
+    width: 40%;
+    margin: 0 auto;
+    a{
+      flex: 1;
+      img{
+        width: 200px;
+        height: 60px;
+        margin:0px 20px
+
+      }
+    }
+  }
+}
+@media only screen and(max-width: 1200px) {
+  .aveilable_on_all{
+    .aveilable_tags{
+
+
+      a{
+        flex: 1;
+        img{
+          width: 200px;
+          height: 60px;
+          margin:10px
+
+        }
+      }
+    }
+  }
+
+}

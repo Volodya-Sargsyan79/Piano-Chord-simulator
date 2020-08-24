@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+
+
+main { padding: 0 50px 50px 50px; }
+
+.article {
+  width: 100%;
+  margin: 0px auto 100px auto;
+  padding: 25px;
+  color: #333;
+  background-color: snow;
+  border: 2px solid #61DAFB;
+  border-radius: 1.5rem  !important;
+  opacity: 1;
+}
+
+
+
+.fancy-h1 {
+  margin: 25px;
+  padding: 0px 25px;
+  color: snow;
+  text-align: center;
+  font-size: 50px;
+  font-family: Montserrat;
+  letter-spacing: 3px;
+  line-height: 1.25;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: violet;
+  text-shadow: -3px 3px 6px rgba(0,0,0,0.15);
+}
+
+.fancy-h2 {
+  margin-bottom: 25px;
+  color: snow;
+  font-size: 40px;
+  font-family: Montserrat;
+  letter-spacing: 1px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: violet;
+  text-shadow: -2px 2px 4px rgba(0,0,0,0.15);
+}
+
+code {
+  padding: 0 5px;
+  color: #333;
+  font-size: 14px;
+  background-color: rgb(240,240,240);
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+pre {
+  display: block;
+  margin: 32px auto;
+  padding: 0;
+  width: 90%;
+  font-family: monospace;
+  font-size: 16px;
+  background-color: rgb(240,240,240);
+  border: 1px solid gray;
+  border-radius: 5px;
+  overflow: auto;
+  overflow-x: scroll;
+}
+
+pre code {
+  position: relative;
+  line-height: 1.15;
+  font-size: 90%;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius:0px;
+}
+
+h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+  color: inherit;
+  background-color: transparent;
+  font-size: inherit;
+  border:none;
+}
+
+
+/* ============================
+          Spinner
+=========================== */
+
+
+.lds-spinner {
+  display: inline-block;
+  position: relative;
+  top: 0;
+ 
+  transform: translateX(-50%);
+  width: 64px;
+  height: 64px;
+  color: white;
+}
+.lds-spinner-wrap{
+  height: 355px;
+  background: #8080801f;
+  opacity: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+}
+.lds-spinner div {
+  transform-origin: 32px 32px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 29px;
+  width: 5px;
+  height: 14px;
+  border-radius: 20%;
+  background: #333;       /* This is the color that matters. */
+}
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
